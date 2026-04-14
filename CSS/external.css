@@ -1,28 +1,28 @@
 :root {
-  --primary: #121212;
-  --accent: #C9A227;
-  --bg: #FAFAFA;
-  --text: #FFFFFF;
-  --white: #FFFFFF;
-  --muted: #777777;
+	--primary: #121212;
+	--accent: #C9A227;
+	--bg: #FAFAFA;
+	--text: #FFFFFF;
+	--white: #FFFFFF;
+	--muted: #777777;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: var(--text);
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+	font-family: Arial, sans-serif;
+	background-color: #121212;
+	color: var(--text);
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
 }
 
 section {
-  padding: 60px 0;
+	padding: 60px 0;
 }
 
 h1, h2, h3, h4, h5 {
-  color: var(--accent);
-  font-weight: 700;
+	color: var(--accent);
+	font-weight: 700;
 }
 
 p {
@@ -33,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+a i{
+	color: #d4af37;
+	margin-right: 10px;
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--primary) !important;
@@ -40,10 +45,15 @@ a {
 }
 
 .navbar-brand {
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 1.5rem;
-  color: var(--white) !important;
+	display:flex;
+	align-items: center;
+	gap: 10px;
+	font-family: 'PlayfairDisplay', serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+	color: white;
+	text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 
 .nav-link {
