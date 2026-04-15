@@ -100,11 +100,13 @@
 								<div class="row">
 									<div class="col-md-6 mb-3">
 										<label for="name" class="form-label">Full Name</label>
+										<span id="name-error" class="error-msg">Enter your name</span>
 										<input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
 									</div>
 
-									<div class="col-md-6 mb-3">
+									<div class="col-md-6 mb-3 form-input">
 										<label for="email" class="form-label">Email Address</label>
+										<span id="email-error" class="error-msg">Please enter a valid email</span>
 										<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
 									</div>
 								</div>
@@ -112,11 +114,13 @@
 								<div class="row">
 									<div class="col-md-6 mb-3">
 										<label for="phone" class="form-label">Phone Number</label>
+										<span id="phone-error" class="error-msg">Enter a valid phone number</span>
 										<input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" pattern="[0-9]{9,10}" required>
 									</div>
 
 									<div class="col-md-6 mb-3">
 										<label for="guests" class="form-label">Number of Guests</label>
+										<span id="guest-error" class="error-msg">Please enter a valid number</span>
 										<input type="number" class="form-control" id="guests" min="1" max="12" required>
 									</div>
 								</div>
@@ -124,11 +128,13 @@
 								<div class="row">
 									<div class="col-md-6 mb-3">
 										<label for="date" class="form-label">Reservation Date</label>
+										<span id="date-error" class="error-msg">Please enter a valid date</span>
 										<input type="date" class="form-control" id="date" required>
 									</div>
 
 									<div class="col-md-6 mb-3">
 										<label for="time" class="form-label">Reservation Time</label>
+										<span id="time-error" class="error-msg">Please enter a valid time</span>
 										<input type="time" class="form-control" id="time" required>
 									</div>
 								</div>
@@ -141,7 +147,7 @@
 								<button type="submit" class="btn btn-gold">Submit Reservation</button>
 							</form>
 						</div>
-					</div>
+					</div>			
 				</div>
 			</section>
 		</main>

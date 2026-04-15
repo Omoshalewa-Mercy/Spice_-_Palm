@@ -1,3 +1,6 @@
+/* -All styling was done by Omoshalewa Mercy Adeniyi */
+
+
 :root {
 	--primary: #121212;
 	--accent: #C9A227;
@@ -105,7 +108,7 @@ a i{
   font-weight: 600;
 }
 
-/* Hero sections */
+/* hero sections */
 .hero,
 .menu-hero,
 .about-hero,
@@ -136,7 +139,7 @@ a i{
 }
 .about-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url('../IMAGES/mains.avif') center/cover no-repeat;
+              url('../IMAGES/spice_hero_1.avif') center/cover no-repeat;
 }
 
 .contact-hero {
@@ -162,7 +165,7 @@ a i{
 	color: #D4AF37;
 }
 
-/* Cards and boxes */
+/* cards and boxes */
 .card,
 .custom-card,
 .menu-card,
@@ -174,7 +177,7 @@ a i{
   border: 1px solid #D4AF37;
   border-radius: 50px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
-    color: var(--text);
+  color: var(--text);
 
 }
 
@@ -270,7 +273,7 @@ a i{
 }
 
 .form-control {
-	background-color: var(--primary);
+	background-color: var(--text);
   border-radius: 10px;
   padding: 12px;
   border: 1px solid #D4AF37;
@@ -353,4 +356,15 @@ footer p {
 .map-box {
   width: 100%;
   max-width: 100%;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.error-msg {
+  font-size: 12px;
+  color: red;
+  display: none;
 }
