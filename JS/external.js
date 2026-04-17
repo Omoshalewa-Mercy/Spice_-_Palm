@@ -1,5 +1,6 @@
 console.log("Spice & Palm website loaded successfully.");
 
+//JS code for the filter button interactivity
 function filterMenu(category) {
   let items = document.querySelectorAll(".menu-item");
 
@@ -16,10 +17,11 @@ function filterMenu(category) {
   });
 }
 
+//JS code for reservation form
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("reservationForm");
 
-  // gets all error message elements
+  // declare and get all error message elements
   const nameError = document.getElementById("name-error");
   const emailError = document.getElementById("email-error");
   const phoneError = document.getElementById("phone-error");
@@ -34,12 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       
-      // get form values and trim whitespace
+      // declare get form values and trim whitespace
       let name = document.getElementById("name").value.trim();
       let email = document.getElementById("email").value.trim();
       let phone = document.getElementById("phone").value.trim();
       let guests = document.getElementById("guests").value;
-
       let date = document.getElementById("date");
       let dateValue= document.getElementById("date").value;
       let today = new Date().toISOString().split('T')[0];
