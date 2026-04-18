@@ -134,16 +134,16 @@ a i{
 
 .menu-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url('../IMAGES/menu_hero.avif') center/cover no-repeat;
+              url('../IMAGES/menu-hero.avif') center/cover no-repeat;
 }
 .about-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url('../IMAGES/spice_hero_1.avif') center/cover no-repeat;
+              url('../IMAGES/spice-hero-1.avif') center/cover no-repeat;
 }
 
 .contact-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url('../IMAGES/contact_hero.avif') center/cover no-repeat;
+              url('../IMAGES/contact-hero.avif') center/cover no-repeat;
 }
 
 .menu-hero h1,
