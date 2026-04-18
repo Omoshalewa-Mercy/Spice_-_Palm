@@ -87,7 +87,7 @@ a i{
 /* buttons */
 .btn-gold {
   background-color: #D4AF37;
-  color: var(--text);
+  color: var(--primary);
   border: none;
   padding: 12px 28px;
   font-weight: 600;
@@ -96,7 +96,7 @@ a i{
 }
 
 .btn-gold:hover {
-  background-color: #a8861d;
+  background-color: #A8861D;
   color: white;
   transform: translateY(-2px);
 }
