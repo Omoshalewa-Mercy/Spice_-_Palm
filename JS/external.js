@@ -1,4 +1,9 @@
-console.log("Spice & Palm website loaded successfully.");
+
+/*
+  -this file handles the filter button for each category;
+  -it also return error messages of non-inputed boxes on the contact page
+  -it also handles the scroll up button feature
+*/ 
 
 //JS code for the filter button interactivity
 function filterMenu(category) {
